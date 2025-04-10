@@ -2,6 +2,38 @@
 
 O **RitmoApp** é um aplicativo Flutter que atua como um assistente de produtividade voltado para trabalhadores remotos. Ele utiliza **reconhecimento de voz**, **armazenamento local** e **inteligência artificial** para fornecer dicas de foco, organização, pausas e equilíbrio com base nos desafios ou rotinas dos usuários.
 
+## 🎯 Tema Escolhido
+
+**Saúde Mental e Produtividade no Trabalho Remoto**
+
+Em tempos de trabalho remoto, manter uma rotina equilibrada e produtiva é um desafio para muitas pessoas. O RitmoApp surge como uma ferramenta de apoio para ajudar a organizar melhor o dia a dia, com foco em bem-estar e eficiência.
+
+---
+
+## 🧠 Prompt Usado na Geração de Conteúdo
+
+```text
+Você é um assistente de produtividade para trabalho remoto.
+Baseado no seguinte desafio ou rotina: "[entrada do usuário]"
+Sugira práticas de foco, organização, pausas saudáveis e equilíbrio.
+Mantenha o tom objetivo, encorajador e direto ao ponto. 
+Mas utilize também emojis apropriados para dar um toque mais humano e divertido.
+```
+
+---
+
+## 🧑‍💼 Público-Alvo
+
+Profissionais que atuam em **regime remoto ou híbrido**, especialmente:
+
+- Desenvolvedores e designers
+- Analistas e consultores
+- Freelancers e autônomos
+- Estudantes que precisam de ajuda com foco
+- Pessoas em transição para o home office
+
+---
+
 ## ✨ Funcionalidades
 
 - 🎤 **Reconhecimento de voz**: transforme fala em texto para facilitar a inserção de tarefas ou desafios.
@@ -9,6 +41,8 @@ O **RitmoApp** é um aplicativo Flutter que atua como um assistente de produtivi
 - 💬 **Histórico de mensagens**: persistência de dados com SQLite para manter o chat entre sessões.
 - 📝 **Suporte a Markdown**: as respostas são renderizadas com formatação amigável.
 - 🧹 **Limpeza do chat**: opção para limpar todo o histórico de conversa.
+
+---
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -18,6 +52,8 @@ O **RitmoApp** é um aplicativo Flutter que atua como um assistente de produtivi
 - **Sqflite**: Banco de dados local para armazenamento das mensagens.
 - **Path**: Para manipulação de caminhos locais.
 - **Flutter Markdown**: Para renderizar conteúdo markdown nas respostas da IA.
+
+  ---
 
 ## 📦 Dependências (`pubspec.yaml`)
 
