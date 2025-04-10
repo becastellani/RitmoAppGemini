@@ -30,6 +30,7 @@ dependencies:
   flutter_markdown: ^0.7.7
   sqflite: ^2.4.2
   path: ^1.7.0
+ ```
 
 ## 🧠 Como funciona?
 
@@ -56,6 +57,7 @@ Para executar o projeto:
    git clone [https://github.com/seu-usuario/ritmoapp.git](https://github.com/becastellani/RitmoAppGemini.git](https://github.com/becastellani/RitmoAppGemini.git)
    cd ritmoapp
    ```
+
 2. Instale as dependências:
    ```bash
    flutter pub get
